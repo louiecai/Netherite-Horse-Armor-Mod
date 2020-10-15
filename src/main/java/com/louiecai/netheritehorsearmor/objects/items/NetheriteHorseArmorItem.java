@@ -29,7 +29,6 @@ public class NetheriteHorseArmorItem extends HorseArmorItem {
 	
 	@Override
 	public int getArmorValue() {
-		// TODO Auto-generated method stub
 		return 13;
 	}
 
