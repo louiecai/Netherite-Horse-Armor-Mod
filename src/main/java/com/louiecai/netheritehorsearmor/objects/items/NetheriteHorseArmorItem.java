@@ -16,9 +16,9 @@ public class NetheriteHorseArmorItem extends HorseArmorItem {
 						"textures/entity/horse/armor/horse_armor_netherite.png"),
 				(new Item.Properties()).maxStackSize(1).group(ItemGroup.MISC));
 	}
-
+	
 	@Override
-	public boolean func_234685_a_(DamageSource damageSource) {
+	public boolean isDamageable(DamageSource damageSource) {
 		if (damageSource == DamageSource.LAVA || damageSource == DamageSource.IN_FIRE
 				|| damageSource == DamageSource.ON_FIRE) {
 			return false;
@@ -28,7 +28,7 @@ public class NetheriteHorseArmorItem extends HorseArmorItem {
 	}
 	
 	@Override
-	public int func_219977_e() {
+	public int getArmorValue() {
 		// TODO Auto-generated method stub
 		return 13;
 	}
