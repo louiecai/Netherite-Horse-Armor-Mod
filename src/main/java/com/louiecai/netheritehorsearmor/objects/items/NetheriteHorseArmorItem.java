@@ -14,18 +14,8 @@ public class NetheriteHorseArmorItem extends HorseArmorItem {
 		super(13,
 				new ResourceLocation(NetheriteHorseArmor.MOD_ID,
 						"textures/entity/horse/armor/horse_armor_netherite.png"),
-				(new Item.Properties()).maxStackSize(1).group(ItemGroup.MISC).isBurnable());
+				(new Item.Properties()).maxStackSize(1).group(ItemGroup.MISC).isImmuneToFire());
 	}
-	
-//	@Override
-//	public boolean isDamageable(DamageSource damageSource) {
-//		if (damageSource == DamageSource.LAVA || damageSource == DamageSource.IN_FIRE
-//				|| damageSource == DamageSource.ON_FIRE) {
-//			return false;
-//		} else {
-//			return true;
-//		}
-//	}
 	
 	@Override
 	public int getArmorValue() {

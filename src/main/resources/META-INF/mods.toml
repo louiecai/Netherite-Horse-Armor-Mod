@@ -1,6 +1,6 @@
 modLoader="javafml" #mandatory
 
-loaderVersion="[33,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[34,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 
 license="All rights reserved"
 
@@ -10,7 +10,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 modId="netheritehorsearmor" #mandatory
 
-version="1.4" #mandatory
+version="1.5" #mandatory
 
 displayName="Netherite Horse Armor Mod" #mandatory
 
@@ -19,10 +19,10 @@ logoFile="pack.png" #optional
 authors="Louie Cai" #optional
 
 description='''
-Adds a netherite horse armor. That's it. Have fun.
+Adds a netherite horse armor. That's it. Have fun. 
 
-Update Link: https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor-mod
-'''
+Update Link: https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor-mod'''
+
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.examplemod]] #optional
     # the modid of the dependency
