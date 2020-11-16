@@ -1,4 +1,4 @@
-# Netherite Horse Armor Mod ![](http://cf.way2muchnoise.eu/full_392701_downloads.svg)
+# Netherite Horse Armor Mod ![](http://cf.way2muchnoise.eu/392701.svg)
 
 Source code for my netherite horse armor mod ![](https://cf.way2muchnoise.eu/versions/392701.svg)
 
